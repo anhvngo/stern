@@ -181,7 +181,7 @@ Note that bash-completion must be sourced before sourcing the stern bash
 completion code in `.bashrc`.
 
 ```sh
-source <(brew --prefix)/etc/bash-completion
+source $(brew --prefix)/etc/bash_completion
 source <(stern --completion=bash)
 ```
 
